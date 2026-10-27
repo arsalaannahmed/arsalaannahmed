@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="210" viewBox="0 0 860 210">
+  <style>
+    .fade { opacity: 0; animation: fadein 0.9s forwards; }
+    .d1 { animation-delay: 0.2s; } .d2 { animation-delay: 0.9s; }
+    .d3 { animation-delay: 1.6s; } .d4 { animation-delay: 2.3s; }
+    .cursor { animation: blink 1s step-end infinite; }
+    @keyframes fadein { to { opacity: 1; } }
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+  </style>
+  <rect width="860" height="210" rx="14" fill="#0d1117" stroke="#30363d"/>
+  <circle cx="28" cy="26" r="6" fill="#ff5f56"/><circle cx="48" cy="26" r="6" fill="#ffbd2e"/><circle cx="68" cy="26" r="6" fill="#27c93f"/>
+  <text x="28" y="66" font-family="monospace" font-size="17" fill="#3fb950" class="fade d1">arsalaan@github ~ $ whoami</text>
+  <text x="28" y="118" font-family="monospace" font-size="52" font-weight="bold" fill="#f0f6fc" class="fade d2">Arsalaan Ahmed</text>
+  <text x="28" y="156" font-family="monospace" font-size="21" fill="#58a6ff" class="fade d3">AI Web Developer &amp; Creative Technologist</text>
+  <text x="28" y="188" font-family="monospace" font-size="16" fill="#8b949e" class="fade d4">I turn ideas into polished digital experiences — fast, clean, and human.</text>
+  <rect x="812" y="172" width="12" height="20" fill="#3fb950" class="cursor"/>
+</svg>

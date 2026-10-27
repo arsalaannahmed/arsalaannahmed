@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="370" height="300" viewBox="0 0 370 300">
+  <style>
+    .fade { opacity: 0; animation: fadein 0.8s forwards; }
+    .d1 { animation-delay: 0.3s; } .d2 { animation-delay: 0.9s; } .d3 { animation-delay: 1.5s; } .d4 { animation-delay: 2.1s; }
+    @keyframes fadein { to { opacity: 1; } }
+  </style>
+  <rect width="370" height="300" rx="14" fill="#0d1117" stroke="#d29922"/>
+  <text x="24" y="38" font-family="monospace" font-size="17" font-weight="bold" fill="#e3b341" class="fade d1">LIVE PORTFOLIO</text>
+  <text x="24" y="86" font-family="monospace" font-size="42" font-weight="bold" fill="#f0f6fc" class="fade d2">20+ Projects</text>
+  <text x="24" y="118" font-family="monospace" font-size="16" fill="#8b949e" class="fade d2">live on the web right now</text>
+  <text x="24" y="162" font-family="monospace" font-size="15" fill="#e6edf3" class="fade d3">10+ Tools &amp; Technologies</text>
+  <text x="24" y="192" font-family="monospace" font-size="15" fill="#e6edf3" class="fade d3">6+ Industries Served</text>
+  <rect x="24" y="218" width="322" height="44" rx="8" fill="#21262d" stroke="#30363d"/>
+  <text x="40" y="246" font-family="monospace" font-size="14" fill="#58a6ff" class="fade d4">arsalaan-ahmed-portfolio.vercel.app</text>
+</svg>
